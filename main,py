@@ -1,1 +1,23 @@
-#Nada
+from Funciones_Reg_Cal import registrar_venta
+
+Lista_ventas = []
+Registro = {}
+"""
+def registrar_venta():
+    print("="*60)
+    Producto = input("Ingrese el producto que desea comprar: ")
+    Precio = float(input("Ingrese el precio del producto: "))
+    Cantidad = int(input("Ingrese la cantidad de productos que desea comprar: "))
+    Total = Precio * Cantidad
+    return {"Producto": Producto, "Precio": Precio, "Cantidad": Cantidad, "Total": Total}
+"""
+Deseo = input("Desea registrar una venta? s/n: ").lower()
+while Deseo == "s": 
+    venta = registrar_venta()
+    Lista_ventas.append(venta)
+    #print(Lista_ventas)
+    Deseo = input("Desea registrar otra venta? s/n: ").lower()
+
+for venta in Lista_ventas:
+    print(f"El total a pagar por {venta['Cantidad']} {venta['Producto']}(s) es: ${venta['Total']:.2f}")
+print("Gracias por utilizar el programa de registro de ventas.")
