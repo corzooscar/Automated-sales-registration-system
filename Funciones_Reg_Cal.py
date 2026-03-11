@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────
-# Sales_Functions.py
+# Sales Functions
 # Contains functions to register, total, and summarize sales
 # ─────────────────────────────────────────────────────────
  
