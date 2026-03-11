@@ -10,7 +10,7 @@ The program prompts the user to enter the **product name**, **unit price**, and 
 
 | File | Description |
 |------|-------------|
-| `MAIN.py` | Handles user interaction and the main loop |
+| `main.py` | Handles user interaction and the main loop |
 | `Funciones_Reg_Cal.py` | Contains the core logic as reusable functions |
 
 
