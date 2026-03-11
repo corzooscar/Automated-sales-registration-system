@@ -1,10 +1,12 @@
 #Funciones para el registro de ventas
-
+conteo = 0
 def registrar_venta():
-    print("="*60)
-    Producto = input("Ingrese el producto que desea comprar: ")
-    Precio = float(input("Ingrese el precio del producto: "))
-    Cantidad = int(input("Ingrese la cantidad de productos que desea comprar: "))
+    global conteo
+    conteo += 1
+    print(f"\n========================Producto #{conteo}=========================")
+    Producto = input("~ Nombre del producto: ")
+    Precio = float(input("~ Precio Unitario: $"))
+    Cantidad = int(input("~ Cantidad vendida: "))
     Total = Precio * Cantidad
     return {"Producto": Producto, "Precio": Precio, "Cantidad": Cantidad, "Total": Total}
 
