@@ -1,35 +1,24 @@
-# Automated-sales-registration-system
+# 🏦 Automated Sales Registration System
+
+A simple **Python command-line program** that allows users to register product sales interactively.
+
+## What it does
+
+The program prompts the user to enter the **product name**, **unit price**, and **quantity sold** for each sale. It automatically calculates the subtotal and keeps registering entries until the user decides to stop. At the end of the session, it displays a **full summary** of all registered products along with the **total amount collected**.
+
+## Project Structure
+
+| File | Description |
+|------|-------------|
+| `MAIN.py` | Handles user interaction and the main loop |
+| `Funciones_Reg_Cal.py` | Contains the core logic as reusable functions |
+
+
+## FLowchart
+
+<img width="956" height="985" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/8b0eaa41-4bb7-4617-80cd-de8add47ff91" />
 
 
 
-Lista_ventas = []
 
-def registrar_venta():
-    print("="*60)
-    Producto = input("Ingrese el producto que desea comprar: ")
-    Precio = float(input("Ingrese el precio del producto: "))
-    Cantidad = int(input("Ingrese la cantidad de productos que desea comprar: "))
-    Total = Precio * Cantidad
-    return {"Producto": Producto, "Precio": Precio, "Cantidad": Cantidad, "Total": Total}
-
-Deseo = input("Desea registrar una venta? s/n: ").lower()
-while Deseo == "s": 
-    venta = registrar_venta()
-    Lista_ventas.append(venta)
-    print(f"""{"="*60}
-Producto: {Lista_ventas[-1]['Producto']} 
-Precio: {Lista_ventas[-1]['Precio']}
-Cantidad: {Lista_ventas[-1]['Cantidad']} 
-SubTotal: {Lista_ventas[-1]['Total']}
-""")
-    Deseo = input("Desea registrar otra venta? s/n: ").lower()
-
-print("\n")
-print("-"*60)
-print("RESUMEN DE VENTAS DEL DÍA")
-print("-"*60)
-for venta in Lista_ventas:
-    print(f"""El total a pagar por {venta['Cantidad']} {venta['Producto']}(s) es: ${venta['Total']:.2f}
-""")
-print
-print("Gracias por utilizar el programa de registro de ventas.")
+**Made by:** _Oscar Corzo_
