@@ -2,7 +2,7 @@
 # MAIN.py
 # Entry point for the Sales Registration System
 # ─────────────────────────────────────────────────────────
- 
+
 from Funciones_Reg_Cal_Tot import register_sale, show_total, show_summary
  
 # Central list that stores every registered sale as a dictionary
@@ -11,8 +11,7 @@ sales_list = []
 # Welcome banner
 print(f"""╔═══════════════════════════════════════════════════════════╗
                 🏦  SALES REGISTRATION SYSTEM  🏦
-╚═══════════════════════════════════════════════════════════╝
-""")
+╚═══════════════════════════════════════════════════════════╝""")
  
 answer = input("~ Would you like to register a sale? y/n: ").lower()
  
