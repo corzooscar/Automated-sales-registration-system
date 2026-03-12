@@ -16,7 +16,7 @@ The program prompts the user to enter the **product name**, **unit price**, and 
 
 ## FLowchart
 
-<img width="956" height="985" alt="Blank diagram (1)" src="https://github.com/user-attachments/assets/8b0eaa41-4bb7-4617-80cd-de8add47ff91" />
+<img width="956" height="785" alt="Blank diagram" src="https://github.com/user-attachments/assets/01e32310-4b35-44d5-aaba-e99398b64dea" />
 
 
 
