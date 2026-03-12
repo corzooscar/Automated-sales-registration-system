@@ -22,4 +22,5 @@ The program prompts the user to enter the **product name**, **unit price**, and 
 
 
 **Made by:** _Oscar Corzo_
-**Repository's Link:** _https://github.com/corzooscar/Automated-sales-registration-system_
+## Repository's Link:
+_https://github.com/corzooscar/Automated-sales-registration-system_
