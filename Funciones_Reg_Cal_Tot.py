@@ -3,9 +3,8 @@
 # Contains functions to register, total, and summarize sales
 # ─────────────────────────────────────────────────────────
  
-# Tracks how many products have been registered in this session
 import time
-product_count = 0
+product_count = 0 # Tracks how many products have been registered in this session
  
  
 def register_sale():
